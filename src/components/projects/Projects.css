@@ -1,0 +1,82 @@
+/* Projects.css */
+#projects {
+  margin: 5rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects h2 {
+  font-size: 3.125rem;
+  color: #007bff; /* Niebieski */
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-card {
+  padding: 2.5rem;
+  background-color: #e1e5ee; /* Jasny szary */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+  width: 100%;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.project-card .project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-card h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project-card p {
+  color: #343a40; /* Ciemnoszary */
+}
+
+.project-card a {
+  color: #007bff; /* Niebieski */
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-card.reverse {
+    flex-direction: row-reverse;
+  }
+}

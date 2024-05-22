@@ -1,0 +1,62 @@
+/* Hero.css */
+#hero {
+  padding: 40px 10px;
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  max-width: 80rem;
+  height: 80vh;
+}
+
+#hero .flex-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+#hero h4 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#hero h2 {
+  text-align: center;
+  color: #007bff; /* Niebieski zamiast emerald */
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+#hero p {
+  text-align: center;
+}
+
+#hero img {
+  width: 100%;
+  height: auto; /* Zmiana z 'full' na 'auto', aby zachować proporcje obrazu */
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 0;
+  }
+
+  #hero .flex-1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,49 @@
+/* About.css */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  width: 100%;
+  background-color: #e1e5ee; /* Jasnoszary tło */
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  #about {
+    flex-direction: row;
+  }
+}
+
+#about .flex-1 {
+  flex: 1;
+}
+
+#about img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+#about .flex-1.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0 1.5rem;
+}
+
+#about h2 {
+  text-align: center;
+  color: #007bff; /* Niebieski dla nagłówków */
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+#about p {
+  color: #343a40; /* Ciemnoszary dla tekstu */
+  margin-bottom: 1rem;
+}

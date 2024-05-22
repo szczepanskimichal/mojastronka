@@ -1,0 +1,64 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 50px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #f8f9fa; /* Tło navbara */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  color: #007bff; /* Niebieski dla tekstu/logo */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ul {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.li {
+  /* Styl dla <li> jest teraz niepotrzebny, ponieważ list-style jest ustawiony na none dla <ul> */
+}
+
+.a {
+  font-size: 0.875rem;
+  padding: 8px 16px;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: #343a40; /* Ciemny szary dla tekstu */
+  background-color: #f8f9fa; /* Jasny szary dla tła */
+}
+
+.a:hover {
+  color: #ffffff; /* Biały tekst na hover */
+  background-color: #0056b3; /* Ciemniejszy niebieski dla tła na hover */
+}
+
+@media (min-width: 640px) {
+  .a {
+    font-size: 1rem;
+  }
+}

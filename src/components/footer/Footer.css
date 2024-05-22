@@ -1,0 +1,12 @@
+/* Footer.css */
+.footer {
+  padding: 2.5rem; /* p-10 */
+  background-color: #e1e5ee; /* Jasnoszary zamiast emerald */
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  font-weight: bold;
+  color: #343a40; /* Ciemnoszary */
+}
