@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="hero-image">
-        <img src="./logo.png" alt="Hello.svg" />
+        <img src="/michalZdjecie.png" alt="michal.png" />
       </div>
     </section>
   );
