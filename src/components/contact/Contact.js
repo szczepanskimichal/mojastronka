@@ -9,16 +9,9 @@ export default function Contact() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://instagram.com/geeks_for_geeks"
+          href="https://www.linkedin.com/in/michal-szczepansky"
         >
-          Instagram: <span>@geeks_for_geeks</span>
-        </a>
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://twitter.com/geeksforgeeks"
-        >
-          Twitter: <span>@geeksforgeeks</span>
+          LinkedIn: <span>Szczepanski Michal</span>
         </a>
       </div>
     </section>

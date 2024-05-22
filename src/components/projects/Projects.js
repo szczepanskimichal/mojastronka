@@ -7,7 +7,7 @@ export default function Projects() {
       <h2>My Projects</h2>
       <div className="project-card">
         <a href="https://flowers-shop.p.goit.global/index.html">
-          <img src="./images/anemone.jpg" alt="Anemone" />
+          <img src="/images/anemone.png" alt="Anemone" />
         </a>
         <div className="project-info">
           <h2>
@@ -28,7 +28,7 @@ export default function Projects() {
       </div>
       <div className="project-card reverse">
         <a href="https://mikel538.github.io/Filmoteka/index.html">
-          <img src="./images/filmoteka.jpg" alt="Filmoteka" />
+          <img src="/images/filmoteka.png" alt="Filmoteka" />
         </a>
         <div className="project-info">
           <h2>
@@ -44,6 +44,19 @@ export default function Projects() {
             layout, HTML5, JavaScript, and CSS, we ensure a smooth and engaging
             experience across all devices.
           </p>
+        </div>
+      </div>
+      <div className="project-card reverse">
+        <a href="https://szczepanskimichal.github.io/WebStudio/">
+          <img src="/images/WebStudio.png" alt="WebStudio" />
+        </a>
+        <div className="project-info">
+          <h2>
+            <a href="https://szczepanskimichal.github.io/WebStudio/">
+              WebStudio
+            </a>
+          </h2>
+          <p>Responsive website</p>
         </div>
       </div>
     </section>
