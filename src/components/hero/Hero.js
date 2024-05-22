@@ -10,8 +10,18 @@ export default function Hero() {
           <h4>Hi and welcome to</h4>
           <h2>My Portfolio Website</h2>
         </div>
-        <p>I am your friendly neighbourhood osm developer...</p>
-      </div>{" "}
+        <p>
+          My name is Michał Szczepański, and I am a Full-Stack Developer with a
+          passion for creating innovative, scalable web applications.
+        </p>
+        <p>
+          From frontend to backend, my projects combine advanced technology with
+          intuitive design to deliver the best possible user experiences.
+        </p>
+        <p>
+          Browse my portfolio to see how I can help bring your ideas to life.
+        </p>
+      </div>
       <div className="hero-image">
         <img src="./logo.png" alt="Hello.svg" />
       </div>

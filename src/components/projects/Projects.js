@@ -6,43 +6,43 @@ export default function Projects() {
     <section id="projects">
       <h2>My Projects</h2>
       <div className="project-card">
-        <a href="https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/">
-          <img
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20230927120905/gfg.png"
-            alt="Project 1"
-          />
+        <a href="https://flowers-shop.p.goit.global/index.html">
+          <img src="./images/anemone.jpg" alt="Anemone" />
         </a>
         <div className="project-info">
           <h2>
-            <a href="https://www.geeksforgeeks.org/progress-tracker-using-react-and-local-storage/">
-              DSA Progress Tracker
+            <a href="https://flowers-shop.p.goit.global/index.html">
+              Anemone - minimaliscit flower studio
             </a>
           </h2>
           <p>
-            This is a project built on react which tracks your progress in dsa
-            and stores that in the local storage.
+            Welcome to our floristry studio, where floral passion meets modern
+            technology, creating a unique online experience. As a team of
+            developers, along with our creative colleagues, we've crafted this
+            website utilizing HTML5, Figma, Git, JavaScript, and CSS. With a
+            responsive layout, you can now browse our beautiful floral
+            arrangements on any device. Join us today and let yourself be
+            inspired!
           </p>
         </div>
       </div>
       <div className="project-card reverse">
-        <a href="https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/">
-          <img
-            src="https://media.geeksforgeeks.org/wp-content/uploads/20230904150620/gfg.png"
-            alt="Project 2"
-          />
+        <a href="https://mikel538.github.io/Filmoteka/index.html">
+          <img src="./images/filmoteka.jpg" alt="Filmoteka" />
         </a>
         <div className="project-info">
           <h2>
-            <a href="https://www.geeksforgeeks.org/15-puzzle-game-using-reactjs/">
-              15 Puzzle Game
+            <a href="https://mikel538.github.io/Filmoteka/index.html">
+              FILMOTEKA
             </a>
           </h2>
           <p>
-            15 puzzle game is basically a tile-based game in which there are 16
-            tiles out of which 1 tile is left empty and the remaining tiles are
-            filled with numbers from 1 to 15 in random order. The user has to
-            arrange all the tiles in numerical order with the rule that they can
-            only move the tile that is a direct neighbor of the empty tile.
+            Our website is a movie search engine that showcases movie rankings
+            and recently popular films. It allows users to search for specific
+            movies and provides information on their ratings and popularity,
+            along with the option to watch trailers. With skills in responsive
+            layout, HTML5, JavaScript, and CSS, we ensure a smooth and engaging
+            experience across all devices.
           </p>
         </div>
       </div>

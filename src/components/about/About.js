@@ -14,10 +14,11 @@ export default function About() {
         <div>
           <h2>About Me :</h2>
         </div>
-        <p>As I said, I am your friendly neighbourhood osm developer...</p>
         <p>
-          I am a passionate self-taught developer... I have an experience of
-          about 4 years and had a deep understanding of creating web products.
+          I'm a Full-Stack Developer with nearly two years of experience in
+          creating dynamic and responsive web applications. My expertise spans a
+          wide range of technologies and tools, which I use to deliver
+          high-quality, scalable solutions.
         </p>
       </div>
     </section>
